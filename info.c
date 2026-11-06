@@ -3,7 +3,7 @@
 * Author: Charlie Malohn
 * Data: 11/4/2026
 * Brief: Prints out system information
-* Compile: $ gcc -Wall info.c -o info
+* Compile with makefile
 */
 
 #include <stdio.h>
