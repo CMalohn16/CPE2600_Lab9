@@ -12,6 +12,7 @@
 #include <stdbool.h>
 #include <time.h>
 #include <string.h>
+#include <stdlib.h>
 
 #define SECONDS_PER_DAY 86400
 

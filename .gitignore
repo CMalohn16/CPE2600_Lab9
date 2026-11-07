@@ -36,6 +36,11 @@
 *.x86_64
 *.hex
 
+info
+pmod
+pinfo
+finfo
+
 # Debug files
 *.dSYM/
 *.su
