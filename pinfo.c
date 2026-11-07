@@ -1,7 +1,8 @@
 /**
-* File: info.c
+* File: pinfo.c
 * Author: Charlie Malohn
 * Data: 11/6/2026
+* Class: CPE2600 - 121
 * Brief: Prints out information about a specified process
 * Compile with makefile
 */
@@ -36,7 +37,7 @@ int main(int argc, char* argv[])
     }
 
     printf("Process ID: %d\n", pid);
-    printf("Priority: %d\n", getpriority(pid, PRIO_PROCESS));
+    printf("Priority: %d\n", getpriority(PRIO_PROCESS, pid));
 
     //Scheduling Method
     int schedVal = sched_getscheduler(pid);

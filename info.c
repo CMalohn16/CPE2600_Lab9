@@ -2,6 +2,7 @@
 * File: info.c
 * Author: Charlie Malohn
 * Data: 11/4/2026
+* Class: CPE2600 - 121
 * Brief: Prints out system information
 * Compile with makefile
 */
